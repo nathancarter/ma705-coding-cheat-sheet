@@ -638,7 +638,7 @@ def inverted ( **kwargs ):
     for key, value in kwargs.items():
         result[value] = key
     return result
-inverted( { 'jim' : 42, 'angie' : 9 } )
+inverted( jim=42, angie=9 )
         # == { 42 : 'jim', 9 : 'angie' }
 \end{python}
 
