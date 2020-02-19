@@ -4,3 +4,4 @@
 *.out
 *.synctex.gz
 *.pytxcode
+.DS_Store
